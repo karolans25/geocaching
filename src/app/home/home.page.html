@@ -3,6 +3,7 @@
     <ion-title>
       Blank
     </ion-title>
+    <!-- <ion-nav [root]="home"></ion-nav> -->
   </ion-toolbar>
 </ion-header>
 
@@ -19,6 +20,8 @@
   </div>
 </ion-content>
 
-<ion-footer>
-  <p>Soy el footer</p>
+<ion-footer [translucent]="true" collapse="fade" >
+  <ion-toolbar>
+    <ion-title>Footer</ion-title>
+  </ion-toolbar>
 </ion-footer>
